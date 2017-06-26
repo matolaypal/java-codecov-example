@@ -1,8 +1,7 @@
 package org.jacoco.examples.maven.java;
 
-import java.util.Random;
-
 public class HelloWorld {
+    int i;
 	
 	public String getMessage(boolean bigger) {
 		if (bigger) {
